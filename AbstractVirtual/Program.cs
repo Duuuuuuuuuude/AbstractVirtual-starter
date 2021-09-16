@@ -8,10 +8,9 @@ namespace AbstractVirtual
     {
         static void Main(string[] args)
         {
-            // TODO: Instantiate
+            // TODO: Instantiate the animal objects and insert them into the list
 
-            // TODO: Insert animals in list
-            List<Animal> animals = new List<Animal>() { /* replace this with animal objects */ };
+            List<Animal> animals = new List<Animal>() { /* replace this with the animal objects */ };
 
             foreach (Animal ani in animals)
             {

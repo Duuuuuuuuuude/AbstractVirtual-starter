@@ -11,6 +11,9 @@ namespace AbstractVirtual.Model {
             Breed = breed;
         }
 
+        /// <summary>
+        /// Makes the animal perform a trick
+        /// </summary>
         public abstract void PerformTrick();
 
         public virtual void FeedAnimal() {
