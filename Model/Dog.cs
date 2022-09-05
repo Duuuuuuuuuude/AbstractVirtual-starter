@@ -1,7 +1,8 @@
 ﻿using System;
 
 namespace AbstractVirtual.Model {
-    public class Cat : Animal {
+    public class Dog : Animal
+    {
 
     }
 }
