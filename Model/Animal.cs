@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace AbstractVirtual.Model {
-    public abstract class Animal {
+namespace AbstractVirtual.Model
+{
+    public abstract class Animal
+    {
 
         public string Species { get; set; }
         public string Breed { get; set; }
 
-        protected Animal(string species, string breed) {
+        protected Animal(string species, string breed)
+        {
             Species = species;
             Breed = breed;
         }
@@ -16,7 +19,8 @@ namespace AbstractVirtual.Model {
         /// </summary>
         public abstract void PerformTrick();
 
-        public virtual void FeedAnimal() {
+        public virtual void FeedAnimal()
+        {
             Console.Write("Yum ");
         }
 
